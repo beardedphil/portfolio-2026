@@ -1,7 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-  --color-purple-*: initial;
+  --color-purple-400: #a78bfa;
+  --color-purple-600: #9333ea;
+  --color-purple-700: #7e22ce;
 }
 
 html {
