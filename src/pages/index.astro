@@ -1,27 +1,14 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Navigation from '../components/Navigation.astro';
 ---
 
 <Layout title="Portfolio">
-	<nav class="fixed top-0 left-0 right-0 z-50 bg-gray-900/95 backdrop-blur-sm border-b border-gray-800">
-		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-			<div class="flex justify-between items-center h-16">
-				<div class="flex space-x-8">
-					<a href="#hero" class="text-gray-300 hover:text-purple-400 transition-colors duration-200">Hero</a>
-					<a href="#hal" class="text-gray-300 hover:text-purple-400 transition-colors duration-200">HAL</a>
-					<a href="#experience" class="text-gray-300 hover:text-purple-400 transition-colors duration-200">Experience</a>
-					<a href="#skills" class="text-gray-300 hover:text-purple-400 transition-colors duration-200">Skills</a>
-					<a href="#about" class="text-gray-300 hover:text-purple-400 transition-colors duration-200">About</a>
-					<a href="#resume" class="text-gray-300 hover:text-purple-400 transition-colors duration-200">Resume</a>
-					<a href="#contact" class="text-gray-300 hover:text-purple-400 transition-colors duration-200">Contact</a>
-				</div>
-			</div>
-		</div>
-	</nav>
+	<Navigation />
 
 	<main>
 		<!-- Hero Section -->
-		<section id="hero" class="min-h-screen flex items-center justify-center pt-16 px-4 sm:px-6 lg:px-8">
+		<section id="hero" class="min-h-screen flex items-center justify-center pt-16 px-4 sm:px-6 lg:px-8 scroll-mt-16">
 			<div class="max-w-4xl mx-auto text-center">
 				<h1 class="text-5xl md:text-7xl font-bold mb-6 text-white">
 					Welcome to My Portfolio
@@ -36,7 +23,7 @@ import Layout from '../layouts/Layout.astro';
 		</section>
 
 		<!-- HAL Section -->
-		<section id="hal" class="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 bg-gray-800/50">
+		<section id="hal" class="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 bg-gray-800/50 scroll-mt-16">
 			<div class="max-w-4xl mx-auto text-center">
 				<h2 class="text-4xl md:text-6xl font-bold mb-6 text-white">
 					HAL
@@ -48,7 +35,7 @@ import Layout from '../layouts/Layout.astro';
 		</section>
 
 		<!-- Experience Section -->
-		<section id="experience" class="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
+		<section id="experience" class="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 scroll-mt-16">
 			<div class="max-w-4xl mx-auto text-center">
 				<h2 class="text-4xl md:text-6xl font-bold mb-6 text-white">
 					Experience
@@ -60,7 +47,7 @@ import Layout from '../layouts/Layout.astro';
 		</section>
 
 		<!-- Skills Section -->
-		<section id="skills" class="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 bg-gray-800/50">
+		<section id="skills" class="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 bg-gray-800/50 scroll-mt-16">
 			<div class="max-w-4xl mx-auto text-center">
 				<h2 class="text-4xl md:text-6xl font-bold mb-6 text-white">
 					Skills
@@ -72,7 +59,7 @@ import Layout from '../layouts/Layout.astro';
 		</section>
 
 		<!-- About Section -->
-		<section id="about" class="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
+		<section id="about" class="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 scroll-mt-16">
 			<div class="max-w-4xl mx-auto text-center">
 				<h2 class="text-4xl md:text-6xl font-bold mb-6 text-white">
 					About
@@ -84,7 +71,7 @@ import Layout from '../layouts/Layout.astro';
 		</section>
 
 		<!-- Resume Section -->
-		<section id="resume" class="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 bg-gray-800/50">
+		<section id="resume" class="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 bg-gray-800/50 scroll-mt-16">
 			<div class="max-w-4xl mx-auto text-center">
 				<h2 class="text-4xl md:text-6xl font-bold mb-6 text-white">
 					Resume
@@ -96,7 +83,7 @@ import Layout from '../layouts/Layout.astro';
 		</section>
 
 		<!-- Contact Section -->
-		<section id="contact" class="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
+		<section id="contact" class="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 scroll-mt-16">
 			<div class="max-w-4xl mx-auto text-center">
 				<h2 class="text-4xl md:text-6xl font-bold mb-6 text-white">
 					Contact
