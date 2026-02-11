@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Navigation from '../components/Navigation.astro';
+import Section from '../components/Section.astro';
 ---
 
 <Layout title="Portfolio">
@@ -8,8 +9,8 @@ import Navigation from '../components/Navigation.astro';
 
 	<main>
 		<!-- Hero Section -->
-		<section id="hero" class="min-h-screen flex items-center justify-center pt-20 px-4 sm:px-6 lg:px-8 scroll-mt-20">
-			<div class="max-w-4xl mx-auto text-center">
+		<Section id="hero">
+			<div class="text-center">
 				<h1 class="text-5xl md:text-7xl font-bold mb-6 text-white">
 					Welcome to My Portfolio
 				</h1>
@@ -20,79 +21,61 @@ import Navigation from '../components/Navigation.astro';
 					Get in Touch
 				</a>
 			</div>
-		</section>
+		</Section>
 
 		<!-- HAL Section -->
-		<section id="hal" class="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 bg-gray-800/50 scroll-mt-20">
-			<div class="max-w-4xl mx-auto text-center">
-				<h2 class="text-4xl md:text-6xl font-bold mb-6 text-white">
-					HAL
-				</h2>
+		<Section id="hal" title="HAL" variant="alt">
+			<div class="text-center">
 				<p class="text-xl text-gray-400">
 					Placeholder content for HAL section
 				</p>
 			</div>
-		</section>
+		</Section>
 
 		<!-- Experience Section -->
-		<section id="experience" class="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 scroll-mt-20">
-			<div class="max-w-4xl mx-auto text-center">
-				<h2 class="text-4xl md:text-6xl font-bold mb-6 text-white">
-					Experience
-				</h2>
+		<Section id="experience" title="Experience">
+			<div class="text-center">
 				<p class="text-xl text-gray-400">
 					Placeholder content for Experience section
 				</p>
 			</div>
-		</section>
+		</Section>
 
 		<!-- Skills Section -->
-		<section id="skills" class="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 bg-gray-800/50 scroll-mt-20">
-			<div class="max-w-4xl mx-auto text-center">
-				<h2 class="text-4xl md:text-6xl font-bold mb-6 text-white">
-					Skills
-				</h2>
+		<Section id="skills" title="Skills" variant="alt">
+			<div class="text-center">
 				<p class="text-xl text-gray-400">
 					Placeholder content for Skills section
 				</p>
 			</div>
-		</section>
+		</Section>
 
 		<!-- About Section -->
-		<section id="about" class="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 scroll-mt-20">
-			<div class="max-w-4xl mx-auto text-center">
-				<h2 class="text-4xl md:text-6xl font-bold mb-6 text-white">
-					About
-				</h2>
+		<Section id="about" title="About">
+			<div class="text-center">
 				<p class="text-xl text-gray-400">
 					Placeholder content for About section
 				</p>
 			</div>
-		</section>
+		</Section>
 
 		<!-- Resume Section -->
-		<section id="resume" class="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 bg-gray-800/50 scroll-mt-20">
-			<div class="max-w-4xl mx-auto text-center">
-				<h2 class="text-4xl md:text-6xl font-bold mb-6 text-white">
-					Resume
-				</h2>
+		<Section id="resume" title="Resume" variant="alt">
+			<div class="text-center">
 				<p class="text-xl text-gray-400">
 					Placeholder content for Resume section
 				</p>
 			</div>
-		</section>
+		</Section>
 
 		<!-- Contact Section -->
-		<section id="contact" class="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 scroll-mt-20">
-			<div class="max-w-4xl mx-auto text-center">
-				<h2 class="text-4xl md:text-6xl font-bold mb-6 text-white">
-					Contact
-				</h2>
+		<Section id="contact" title="Contact">
+			<div class="text-center">
 				<p class="text-xl text-gray-400">
 					Placeholder content for Contact section
 				</p>
 			</div>
-		</section>
+		</Section>
 	</main>
 </Layout>
 
